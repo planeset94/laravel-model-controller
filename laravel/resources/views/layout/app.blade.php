@@ -13,9 +13,7 @@
 
 <body>
 
-    <header id="site-header">
-        <h1>Ciao</h1>
-    </header>
+    <header id="site-header"></header>
 
 
     <main id="site-main">
@@ -24,9 +22,7 @@
 
 
 
-    <footer id="site-footer">
-
-    </footer>
+    <footer id="site-footer"></footer>
 
 
 

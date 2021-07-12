@@ -12,8 +12,7 @@ class MovieController extends Controller
     public function index(){
         //variabile con inizio min.
         $movies =  MovieModel::all();
-        ddd($movies);
-        return view('index' , compact('movies'));
+        return view('movies.index' , compact('movies'));
     }
 
 
