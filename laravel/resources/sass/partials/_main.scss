@@ -1,0 +1,43 @@
+.container{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    height: 100vh;
+
+    .even{
+        border: 5px dotted red;
+    }
+    .odd{
+        border: 5px dotted silver;
+    }
+
+    .card{
+       
+        text-align: center;
+        margin-right: 1rem;
+        width: calc(100%/4 - 1rem);
+        padding:2rem 1rem;
+        color: #d8d8d852;
+        transition-duration: 1s;
+        transition-property: color;
+        
+        .title{
+        padding-top: 0.5rem;
+        font-size: 1.1rem;
+        }
+        .original-title{
+            padding-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        p{
+            font-size: 0.9rem;
+        }
+    }
+      
+    .card:hover{
+        color: white;
+    }
+
+}

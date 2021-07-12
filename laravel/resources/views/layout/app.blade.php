@@ -9,25 +9,18 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body>
 
-    <header id="site-header"></header>
-
-
+    <header id="site-header">
+        <h3>Hover the cards</h3>
+    </header>
     <main id="site-main">
         @yield('content')
     </main>
-
-
-
     <footer id="site-footer"></footer>
-
-
-
-
-
 
 </body>
 
